@@ -5,7 +5,7 @@ Obs: caso queira sobrepor a hierarquia pode usar !important, mas não é boa pr�
 
 /*Cabeçalhos*/
 body {
-    background-image: url(img/moonlight.jpg);
+    background-color: orange;
 }
 
 div {
@@ -47,15 +47,15 @@ ul {
 
 /*=====Id=====*/
 #cabecalho-principal {
-    background-color: orange;
     border-radius: 8px;
-    padding: 10px;
 }
 
 #bg-main {
     background-color: white;
     margin: 25px;
     border-radius: 4px;
+    padding: 10px;
+    box-shadow: 10px 20px black;
 }
 
 
@@ -69,5 +69,4 @@ ul {
 .imagem {
     width: 400px;
     height: 200px;
-    margin-bottom: 10px;
 }
