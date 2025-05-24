@@ -4,6 +4,14 @@ Obs: caso queira sobrepor a hierarquia pode usar !important, mas não é boa pr�
 */
 
 /*Cabeçalhos*/
+body {
+    background-image: url(img/moonlight.jpg);
+}
+
+div {
+    margin: 25px;
+}
+
 h1 {
     font-family: 'Times New Roman', Times, serif;
 }
@@ -44,9 +52,22 @@ ul {
     padding: 10px;
 }
 
+#bg-main {
+    background-color: white;
+    margin: 25px;
+    border-radius: 4px;
+}
+
+
 /*=====Classes=====*/
 .secao {
     background-color: yellow;
     border-radius: 8px;
     padding: 8px;
+}
+
+.imagem {
+    width: 400px;
+    height: 200px;
+    margin-bottom: 10px;
 }
