@@ -1,0 +1,52 @@
+/*Hierarquia
+Id > Class > tags
+Obs: caso queira sobrepor a hierarquia pode usar !important, mas não é boa prática
+*/
+
+/*Cabeçalhos*/
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+h2 {
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif
+}
+
+h3 {
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+h4 {
+    font-size: 125%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Parágrafos*/
+p {
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Listas*/
+ul {
+    font-size: 125%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*=====Id=====*/
+#cabecalho-principal {
+    background-color: orange;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/*=====Classes=====*/
+.secao {
+    background-color: yellow;
+    border-radius: 8px;
+    padding: 8px;
+}
