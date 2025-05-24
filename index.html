@@ -1,48 +1,72 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
+    <!--Metadados do html-->
     <meta charset="UTF-8">
+    <!--Serve para viewport (tela virtual) se adaptar a tela do dispositivo móvel -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tomorrow</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
     <link rel="stylesheet" href="style.css">
 </head>
 <body> 
-    <h1>Principal</h1>
+    <!--Seção Principal-->
+    <h1 id="cabecalho-principal" class="secao">Curso de HTML e CSS</h1>
     <hr>
     <ul>
         <li><strong>Objetivo</strong></li>  
         <li><strong>Tags</strong></li>
         <li><strong>Descrição</strong></li>
         <li><strong>Emojis</strong></li>
+        <li><strong>Atributos</strong></li>
     </ul>   
-    <h2>Objetivo</h2>
-    <p>Fixar os conhecimento sobre tags da primeira aula do curso de html e css do tomorrow</p>
-    <h2>Tags</h2>
+    <h3 id="sub-cabecalho-principal">Objetivo</h3>
+    <p>Fixar os conhecimento sobre tags e estilos no curso do Tomorrow.</p>
+    <!--Seção de Tags-->
+    <h2 id="cabecalho-tags" class="secao">Tags</h2>
     <hr>
+    <h3 id="sub-cabecalho-tags">Descrição</h3>
     <ul>
-        <li><strong>&lt;p&gt;</strong></li>
-        <li><strong>&lt;h1&gt;</strong></li>
-        <li><strong>&lt;br&gt;</strong></li>
-        <li><strong>&lt;hr&gt;</strong></li>
-        <li><strong>&lt;pre&gt;</strong></li>
-    </ul> 
-    <h3>Descrição</h3>
-    <ul>
-        <il><strong>&lt;p&gt;</strong></il>
-        <p>Serve para colocar um parágrafo dentro do html.</p>
-        <il><strong>&lt;h1&gt;</strong></il>
-        <p>Serve para colocar um header/title no html. Ele tem uma hierarquia de tamaho o <strong>&lt;h1&gt;</strong> até <strong>&lt;h6&gt;</strong>   </p>
-        <il><strong>&lt;br&gt;</strong></il>
-        <p>Serve para quebrar linha (break row).</p>
-        <il><strong>&lt;hr&gt;</strong></il>
-        <p>Quebra a linha colocando uma régua.</p>
-        <il><strong>&lt;pre&gt;</strong></il>
-        <p>É um parágrafo que preserva os espaços e quebras de linhas.</p>
-
+        <li><strong>&lt;p&gt;</strong>: Serve para colocar um parágrafo dentro do html.</li>
+        <li><strong>&lt;h1&gt;</strong>: Serve para colocar um header/title no html. Ele tem uma hierarquia de tamaho o <strong>&lt;h1&gt;</strong> até <strong>&lt;h6&gt;</strong>. Ele é muito importante para podermos manter o <strong>HTML semântico</strong> e para facilitar na busca no browser.</li>
+        <li><strong>&lt;br&gt;</strong>: Serve para quebrar linha (break row).</li>
+        <li><strong>&lt;hr&gt;</strong>: Quebra a linha colocando uma régua.</li>
+        <li><strong>&lt;pre&gt;</strong>: É um parágrafo que preserva os espaços e quebras de linhas.</li>
     </ul>
-    <h2>Emojis e Unicodes</h2>
+    <!--Seção de Emojis e Unicodes-->
+    <h2 class="secao">Emojis e Unicodes</h2>
     <hr>
-    <p>Para definir unicodes no html precisamos usar a tabela <a href="https://www.ime.usp.br/~kellyrb/mac2166_2015/tabela_ascii.html">ASCII</a></p>
-
+    <h3>Unicodes</h3>
+    <p>Para definir unicodes no html precisamos usar a tabela <a href="https://www.ascii-code.com/pt">ASCII</a>.</p>
+    <p>A <strong>tabela ASCII</strong> é uma correspondência entre linguagem de máquina e símbolos que utilizamos para se comunicar.</p>
+    <h4>Exemplo</h4>
+    <ul>
+        <li>&#33; é (#33;)</li>
+        <li>&#38; é (#38;)</li>
+        <li>&#50; é (#50;)</li>
+        <li>&#42; é (#42;)</li>
+    </ul>
+    <h3>Emojis</h3>
+    <p>São caracters do conjunto de caracters unicodes do <strong>UTF-8</strong>.</p>
+    <p>Esses caracters são definidos no <strong>&lt;meta charset="UTF-8"&gt;</strong>, porque antes do seu site ir para o browser é necessário ele reconhecer o conjunto de caracters da página</p>
+    <h4>Exemplo</h4>
+    <ul>
+        <li>&#128516; é (#128516;)</li>
+        <li>&#128525; é (#128525;)</li>
+        <li>&#128151; é (#128151;)</li>
+    </ul>
+    <h2 class="secao">Atributos</h2>
+    <hr>
+    <h3>Descrição</h3>
+    <p>Os <strong>atributos html</strong> são elementos adicionais para definir seu comportamento e funcionalidade. Normalmente, eles são especificados dentro da <strong>tag de abertura &lt; &gt;</strong>, e são caracterizados com nome e valor, separado por um <strong>sinal de igual (=)</strong>.</p>
+    <p></p>
+    <h4>Exemplo</h4>
+    <ul>
+        <li>id</li> <!--id tem que ser um elemento único para qualquer elemento dentro do html, ele é escrito dessa forma "isso-e-um-id". Eles são úteis para ser manipulados com exclusividade sem afetar outros elementos do html.-->
+        <li>class</li><!--class são atributos mais "globais" e podem ser colocados em diversos elementos dentro do html. Sua utilidade é para manipular o style ou ser usado no js para ocorrência de alguma funcionalidade da aplicação.-->
+        <li>rel</li>
+        <li>type</li>
+        <li>style</li>
+    </ul>
 </body>
 </html>
